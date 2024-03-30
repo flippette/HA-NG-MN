@@ -11,10 +11,10 @@
 }
 
 #title {
-    width: 350px;
+    width: 300px;
     text-align: center;
     line-height: 95px;
-    font-size: 100px;
+    font-size: 90px;
     border: black 10px solid;
     border-radius: 10px;
     padding: 10px;
@@ -43,8 +43,8 @@
 
 .button {
     border-radius: 10px;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     margin: 2px;
     font-size: 20px;
 }
