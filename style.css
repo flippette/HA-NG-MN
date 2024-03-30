@@ -11,6 +11,9 @@
 }
 
 #title {
+    width: 350px;
+    text-align: center;
+    line-height: 95px;
     font-size: 100px;
     border: black 10px solid;
     border-radius: 10px;
@@ -42,7 +45,7 @@
     border-radius: 10px;
     width: 40px;
     height: 40px;
-    margin: 5px;
+    margin: 2px;
     font-size: 20px;
 }
 
