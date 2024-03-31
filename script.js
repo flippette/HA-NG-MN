@@ -574,21 +574,21 @@ const newgame = () => {
 
     wordtype = document.createElement("p")
     wordtype.id = "wordtype"
-    wordtype.textContent = "[Wo rd  ty pe]"
+    wordtype.textContent = "[Wo rd   ty pe]"
     hintbox.append(wordtype)
 
     worddef = document.createElement("p")
     worddef.id = "worddef"
-    worddef.textContent = "[Wo rd  de fi ni ti on]"
+    worddef.textContent = "[Wo rd   de fi]"
     hintbox.append(worddef)
 
     wordex = document.createElement("p")
     wordex.id = "wordex"
-    wordex.textContent = "[Wo rd  ex am pl]"
+    wordex.textContent = "[Wo rd   ex am pl]"
     hintbox.append(wordex)
 
     lives = document.createElement("p")
-    lives.textContent = "Li-Fe:  🧡❤️💛❤️❤️💚❤️❤️"
+    lives.textContent = "Li Fe:  🧡❤️💛❤️❤️💚❤️❤️"
     lives.id = "lives"
     wrapper.append(lives)
 
@@ -669,7 +669,7 @@ const updatescreen = () => {
     guessing_tile.textContent = firsttile + " " + secondtile
 
 
-    if(life_number < 8) {
+    if(life_number < 6) {
         wordtype.textContent = answerdef.type
     }
     if(life_number < 3) {
