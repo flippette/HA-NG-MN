@@ -91,7 +91,7 @@ const Dictionary = {
     },
     bi: {
         definition: "bisexual.",
-        example: "She is bisexual, so she is attracted to both men and women.",
+        example: "She is bi, so she is attracted to both men and women.",
         type: "adjective"
     },
     bo: {
