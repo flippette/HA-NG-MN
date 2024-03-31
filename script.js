@@ -588,7 +588,7 @@ const newgame = () => {
     hintbox.append(wordex)
 
     lives = document.createElement("p")
-    lives.textContent = "Li Fe:  🧡❤️💛❤️❤️💚❤️❤️"
+    lives.textContent = "Li fe:  🧡❤️💛❤️❤️💚❤️❤️"
     lives.id = "lives"
     wrapper.append(lives)
 
@@ -709,9 +709,8 @@ const EndGame = (outcome) => {
 
     newgamebutton = document.createElement("button")
     newgamebutton.id = "newgame"
-    newgamebutton.textContent = "MO-RE DO IT!"
+    newgamebutton.textContent = "MO RE DO IT!"
     newgamebutton.setAttribute("onclick","newgame()")
     wrapper.append(newgamebutton)
 
 }
-
