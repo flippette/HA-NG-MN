@@ -1,45 +1,6 @@
 * {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-#wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 100vh;
-}
-
-#title {
-    width: 300px;
-    text-align: center;
-    line-height: 95px;
-    font-size: 90px;
-    border: black 10px solid;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#guessing_tile {
-    text-align: center;
-    width: 300px;
-    border: black 10px solid;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 100px;
-    margin: 0px 0px 20px 0px
-}
-
-#subtitle {
-    font-size: 30px;
-}
-#playbutton {
-    margin-top: 20px;
-    margin-bottom: 100px;
-    padding: 10px;
-    font-size: 50px;
-}
-
 
 .button {
     border-radius: 10px;
@@ -113,3 +74,44 @@
     font-size: 30px;
     margin-bottom: 100px;
 }
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100vh;
+}
+
+#title {
+    width: 300px;
+    text-align: center;
+    line-height: 95px;
+    font-size: 90px;
+    border: black 10px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#guessing_tile {
+    text-align: center;
+    width: 300px;
+    border: black 10px solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 100px;
+    margin: 0px 0px 20px 0px
+}
+
+#subtitle {
+    font-size: 30px;
+}
+#playbutton {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+
