@@ -15,9 +15,9 @@ const Dictionary = {
         type: "noun"
     },
     ae: {
-        definition: "a diphthong.",
-        example: "The word 'aesthetic' contains the diphthong ae.",
-        type: "noun"
+        definition: "yes",
+        example: "'“Are you Maori?” “Ae.”'",
+        type: "interjection"
     },
     ag: {
         definition: "the chemical symbol for silver.",
@@ -35,8 +35,8 @@ const Dictionary = {
         type: "noun"
     },
     al: {
-        definition: "aluminum.",
-        example: "Aluminum is a lightweight metal used in various applications.",
+        definition: "chemical symbol for aluminum.",
+        example: "Aluminum (Al) is a lightweight metal used in various applications.",
         type: "noun"
     },
     am: {
@@ -51,22 +51,22 @@ const Dictionary = {
     },
     ar: {
         definition: "the chemical symbol for argon.",
-        example: "Argon is a noble gas commonly used in light bulbs.",
+        example: "Argon (Ar) is a noble gas commonly used in light bulbs.",
         type: "noun"
     },
     as: {
-        definition: "the chemical symbol for arsenic.",
-        example: "Arsenic is a toxic element found in some minerals.",
-        type: "noun"
+        definition: "used in comparisons to refer to the extent or degree of something.",
+        example: "please go as fast as you can",
+        type: "adverb"
     },
     at: {
-        definition: "the chemical symbol for astatine.",
-        example: "Astatine is a rare and highly radioactive element.",
-        type: "noun"
+        definition: "expressing location or arrival in a particular place or position.",
+        example: "they live at Conway House",
+        type: "preposition"
     },
     aw: {
-        definition: "an exclamation expressing disgust or disbelief.",
-        example: "Aw, that's disgusting! cried the child, seeing the mess.",
+        definition: "an exclamation expressing mild protest, entreaty, or sympathy",
+        example: "'Aw, that's disgusting!' cried the child, seeing the mess.",
         type: "interjection"
     },
     ax: {
@@ -80,8 +80,8 @@ const Dictionary = {
         type: "interjection"
     },
     ba: {
-        definition: "a type of rhythm in music.",
-        example: "The song had a catchy ba-ba-ba rhythm.",
+        definition: "a first university degree in a subject such as history, languages, or English literature",
+        example: "He has a BA in French.",
         type: "noun"
     },
     be: {
@@ -91,12 +91,12 @@ const Dictionary = {
     },
     bi: {
         definition: "bisexual.",
-        example: "She identifies as bisexual and is attracted to both men and women.",
+        example: "She is bisexual, so she is attracted to both men and women.",
         type: "adjective"
     },
     bo: {
         definition: "body odor.",
-        example: "He needs to address his bo issue.",
+        example: "He needs to address his B.O. issue.",
         type: "noun"
     },
     by: {
@@ -105,14 +105,14 @@ const Dictionary = {
         type: "preposition"
     },
     da: {
-        definition: "father.",
-        example: "Da Vinci was a famous painter and inventor.",
+        definition: "an official prosecutor for a judicial district.",
+        example: "He was also certain the judge and the DA (district attorney) had already conspired.",
         type: "noun"
     },
     de: {
-        definition: "of.",
-        example: "She's a citizen de France.",
-        type: "preposition"
+        definition: "either of the two defensive players positioned at the end of the players who are linemen.",
+        example: "What is a Defensive End in American Football? (DE Position Guide).",
+        type: "abbreviation"
     },
     do: {
         definition: "perform an action.",
@@ -120,13 +120,13 @@ const Dictionary = {
         type: "verb"
     },
     ed: {
-        definition: "past tense marker.",
-        example: "She walked into the room and stopped abruptly, surprised by what she saw.",
-        type: "suffix"
+        definition: "education.",
+        example: "Teacher Don taught phys ed at a junior high school.",
+        type: "abbreviation"
     },
     ef: {
         definition: "the letter 'F'.",
-        example: "The word 'effort' starts with the letter E.",
+        example: "Ef is the 6th letter of the alphabet.",
         type: "noun"
     },
     eh: {
@@ -140,33 +140,33 @@ const Dictionary = {
         type: "noun"
     },
     em: {
-        definition: "the letter 'M'.",
-        example: "The letter M looks like two peaks connected by a valley.",
-        type: "noun"
+        definition: "elemental mastery.",
+        example: "'Mango, did you really need to make a Genshin reference?' 'My Hutao. Needs. More EM.'",
+        type: "abbreviation"
     },
     en: {
-        definition: "the letter 'N'.",
-        example: "The letter N is pronounced 'en'.",
+        definition: "en quadrat",
+        example: "An en is equivalent to half of the body height of the typeface.",
         type: "noun"
     },
     er: {
         definition: "expressing hesitation.",
-        example: "Um, I'm not sure if I want to go.",
+        example: "Er, I'm not sure if I want to go.",
         type: "interjection"
     },
     es: {
-        definition: "the letter 'S'.",
-        example: "The word 'sprint' starts with the letter S.",
+        definition: "the symbol for einsteinium",
+        example: "Einsteinium (Es) is a radioactive metal of the actinide series",
         type: "noun"
     },
     et: {
-        definition: "and.",
-        example: "I'll have peanut butter and jelly, et cetera.",
-        type: "conjunction"
+        definition: "alien.",
+        example: "You know, uhh, that one movie? Haven't watched it?.",
+        type: "abbreviation"
     },
     ex: {
-        definition: "former.",
-        example: "He's my ex-boyfriend, we broke up last year.",
+        definition: "former partner.",
+        example: "He's my ex, fuck him.",
         type: "adjective"
     },
     ew: {
