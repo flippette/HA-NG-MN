@@ -546,12 +546,12 @@ let gameproceeding = false
 
 
 const newgame = () => {
-    lifearray = ["🧡", "❤️", "💛","❤️","❤️","❤️","❤️","💚","❤️","❤️"]
+    lifearray = ["🧡", "❤️", "💛","❤️","❤️","💚","❤️","❤️"]
     incorrect_guesses = []
     gameproceeding = true
 
     wrapper.innerHTML = ""
-    life_number = 10
+    life_number = 8
     letter1guessed = false
     letter2guessed = false
     
@@ -574,21 +574,21 @@ const newgame = () => {
 
     wordtype = document.createElement("p")
     wordtype.id = "wordtype"
-    wordtype.textContent = "[Wo-rd ty-pe]"
+    wordtype.textContent = "[Wo rd  ty pe]"
     hintbox.append(wordtype)
 
     worddef = document.createElement("p")
     worddef.id = "worddef"
-    worddef.textContent = "[Wo-rd de-ef]"
+    worddef.textContent = "[Wo rd  de fi ni ti on]"
     hintbox.append(worddef)
 
     wordex = document.createElement("p")
     wordex.id = "wordex"
-    wordex.textContent = "[Wo-rd ex]"
+    wordex.textContent = "[Wo rd  ex am pl]"
     hintbox.append(wordex)
 
     lives = document.createElement("p")
-    lives.textContent = "Li-Fe:  🧡❤️💛❤️❤️❤️❤️💚❤️❤️"
+    lives.textContent = "Li-Fe:  🧡❤️💛❤️❤️💚❤️❤️"
     lives.id = "lives"
     wrapper.append(lives)
 
@@ -651,7 +651,7 @@ const updatescreen = () => {
     for (i=0;i<lifearray.length;i++) {
         life += lifearray[i]
     }
-    lives.textContent = "Li-Fe:  " + life
+    lives.textContent = "Li fe:  " + life
     
 
     if (letter1guessed === true) {
