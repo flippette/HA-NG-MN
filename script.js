@@ -588,7 +588,7 @@ const newgame = () => {
     hintbox.append(wordex)
 
     lives = document.createElement("p")
-    lives.textContent = "🧡 ❤️ 💛 ❤️ ❤️ ❤️ ❤️ 💚 ❤️ ❤️"
+    lives.textContent = "Li-Fe:  🧡❤️💛❤️❤️❤️❤️💚❤️❤️"
     lives.id = "lives"
     wrapper.append(lives)
 
@@ -651,7 +651,7 @@ const updatescreen = () => {
     for (i=0;i<lifearray.length;i++) {
         life += lifearray[i]
     }
-    lives.textContent = life
+    lives.textContent = "Li-Fe:  " + life
     
 
     if (letter1guessed === true) {
