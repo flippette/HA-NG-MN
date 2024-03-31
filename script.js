@@ -1,18 +1,18 @@
-const Dictionary = (async () => {
-  const res = await fetch("/dict.json");
-  const dict = await res.json();
-  return dict;
-})();
-
+let Dictionary = null;
 const wrapper = document.getElementById("wrapper");
 const subtitle = document.getElementById("subtitle");
 const playbutton = document.getElementById("playbutton");
 const title = document.getElementById("title");
-const wordlist = Object.keys(Dictionary);
-let lifearray = [];
-let gameproceeding = false;
+let wordlist = null;
+let lifearray = null;
+let gameproceeding = null;
 
-const newgame = () => {
+const newgame = async () => {
+  if (wordlist === null) {
+    Dictionary = await fetch("/dict.json").then((res) => res.json());
+    wordlist = Object.keys(Dictionary);
+  }
+
   lifearray = ["🧡", "❤️", "💛", "❤️", "❤️", "💚", "❤️", "❤️"];
   incorrect_guesses = [];
   gameproceeding = true;
